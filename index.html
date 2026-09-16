@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="style.css">
 <title>SoundMes Product Advertisement</title>
 </head>
 
@@ -71,16 +71,23 @@ Sale Price:₱2,999
 <a href="">View Product Website</a>
 <h3>Order Now</h3>
 
-<b>
-Name
-Email
-Quantity: 3
-</b>
+  <div class="form-row">
 
-<div class="container">
-<input type="Text" placeholder="Name">
-<input type="email" placeholder="Email">
-<button>Order Now</button>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Name">
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Last Email</label>
+    <input type="email" id="email" placeholder="Email">
+      </div>
+
+    <div class="form-group">
+      <label>Quantity: 3</label>
+      <button class="order-btn">Order Now</button>
+    </div>
+
 </div>
 
 </body>
