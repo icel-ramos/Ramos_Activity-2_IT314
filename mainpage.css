@@ -36,3 +36,18 @@ button{
 background-color:black;
 color:white;
 }
+
+
+.form-row{
+display:flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+padding: 1px;
+
+  label{
+font-weight:bold;
