@@ -48,6 +48,8 @@ display:flex;
   gap: 4px;
   flex: 1;
 padding: 1px;
+}
 
   label{
 font-weight:bold;
+}
